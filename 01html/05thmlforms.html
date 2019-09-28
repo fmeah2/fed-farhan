@@ -1,0 +1,95 @@
+<!-- 
+    Forms are how we get input from users
+    Form Tag
+      - shell/container for all types of inputs, some of them you don't see on the page
+      - action attribute = the URL to send the form data to
+      - method attribute = the type of HTTP request (get/post)
+      - block-level element
+
+   Input tag
+     - is what goes inside our forms. It creates interative controls. The 'type' attribute determines the type of input it it
+        text
+        date
+        color
+        file
+        checkbox
+        radio
+        email
+        password
+
+    Labels let us add captions to individual elements on our forms
+       - used to make website more accessible
+       - 2 ways of adding labels to our forms
+          1. nest the input tag insite the label tag
+          2. use the 'for' and 'id' attributes
+             'for' attribute has to match the id 
+    Form Validations - the ability to enforce rules & structure on different parts of a forms.
+         - the 'required' attribute
+         - 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <form action="http://www.wikepedia.com" method="">
+        <!-- <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <button>Submit</button>
+<!-- input type="submit" -->
+        <!-- <input type="color"> -->
+
+        <!-- Method 1 -->
+        <!-- <label>
+            username:
+            <input type="text" name="username" placeholder="username">
+        </label>
+        <label>
+            Password:
+            <input type="password" name="password" placeholder="password">
+        </label>
+        <input type="submit"> -->
+
+        <!-- Method 2 -->
+        <!-- <label for="username">Username: </label>
+        <input type="text" id="username" placeholder="username" required>
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="password" required>
+        <input type="submit"> -->
+
+        <!-- Redios -->
+        <p>Do you prefer cats or dogs?</p>
+        <label for="dog">Dogs: </label>
+        <input name="petChoice" type="radio" id="dogs">
+        <label for="cats">Cats: </label>
+        <input name="petChoice" type="radio" id="cats">
+            
+        
+        <!-- Select Tag -->
+        <p>What is your favorite color?</p>
+        <select name="color" id=""">
+            <option value="">Red</option>
+            <option value="">Orange</option>
+            <option value="">Yellow</option>
+            </select>
+
+            <br>
+
+        <!-- Textarea -->
+        <p>Leave us a message the color of your animals</p>
+        <textarea anme="paragraph" id="" cols="30" rows-"10"></textarea>
+
+        <button>Go!</button>
+    </form>
+
+
+</body>
+
+</html>
