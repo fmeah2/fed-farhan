@@ -1,0 +1,10 @@
+.chicago{
+    background-color: lightblue;
+    margin: 2px solid;
+}
+
+main{
+    width: 60%;
+    background-color: gray;
+    float: left;
+}
