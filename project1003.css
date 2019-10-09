@@ -1,0 +1,16 @@
+.side{
+    float: left;
+    background-color: gray;
+    width: 50%;
+
+}
+
+.main{
+    float: right;
+    background-color: yellow;
+    border: 2px soli red;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    visibility: clear;
+}
