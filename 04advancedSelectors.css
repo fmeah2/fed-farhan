@@ -12,7 +12,7 @@ li a{
     color: red;
 }
 
-/* Adjacent Selectos - select elements that come after another elements; not nested inside, but rather a sibling. */
+/* Adjacent Selectors - select elements that come after another elements; not nested inside, but rather a sibling. */
 
 h4 + ul {
     border: 3px solid red;

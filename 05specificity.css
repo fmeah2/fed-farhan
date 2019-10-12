@@ -1,0 +1,20 @@
+body {
+    color: rgb(255, 0, 0);
+}
+
+ul {
+    color: purple;
+}
+
+li {
+    color: orange;
+}
+
+.highlight {
+    background: lightblue;
+    color: brown;
+}
+
+#singer {
+    color: darkblue;
+}
