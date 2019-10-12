@@ -1,0 +1,40 @@
+/* Advanced Selectors */
+
+
+/* Star - select everything in the body */
+* {
+    border: 1px solid lightgrey;
+}
+
+/* Descendant Selector = it takes two or more tag names (selectors) and them together. ex: select only all of the <a> anchor tags inside of an <li> */
+
+li a{
+    color: red;
+}
+
+/* Adjacent Selectos - select elements that come after another elements; not nested inside, but rather a sibling. */
+
+h4 + ul {
+    border: 3px solid red;
+}
+
+/* Attribute Selector - select elements based off of attributes;  */
+a[href="https://www.google.com"]{
+    background: cyan;
+}
+
+/* nth-of-type - it takes a number and selects every nth of a specific elements */
+/* gives final <ul> a pink background */
+ul:nth-of-type(3) {
+    background: pink;
+}
+
+/* give the third <li> in every given group a yellow bg*/
+li:nth-of-type(3) {
+    background: yellowgreen;
+}
+
+/* gives every even numbered element in the a group a limegreen bg */
+li:nth-of-type(even){
+    background: limegreen;
+}
