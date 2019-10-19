@@ -1,0 +1,74 @@
+/* font-family
+    - if a font-name has a number in the beginning, you have to put quotes around it; otherwise, not necessary */
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+
+/* h1{
+    font-family: 'Lato', sans-serif;
+} */
+
+/* font-size
+     - controls how big or small the font is 
+     - em and rem are relative units, px is not
+         - em is equal to the size of the parent of the element in questions
+         - rem is equal to the size of the root element (<html>) */
+
+body{
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 5em;
+    /* 3*10px(body) = 50px */
+}
+
+p{
+    font-size: 2.5em;
+    /* 2.5 * 10px(body) = 25px */
+}
+
+span{
+    font-size: 2rem;
+    /* font-size: 32px given defaul is 16px */
+
+}
+
+/* Font-weight
+   - refers to how bold/lightweight the text is
+   - certain fonts will use rumeric value, 100-1000 */
+
+p{
+    /* font-weight: bold; */
+    /* font-weight: light */
+    /* font-weight: normal; */
+    /* font-weight: 100-1000; */
+    font-weight: 200;
+}
+
+/* line-height
+    - controls the height of a given line */
+    p {
+        line-height: 1.5;
+    }
+
+/* text-align
+    - controls how the text of a given element is aligned
+    - left, right, or center */
+h1 {
+    text-align: center;
+}
+
+/* text-decoration
+     - used to give text a generic style */
+p{
+    text-decoration: underline;
+}
+h1{
+    text-decoration: line-through;
+}
+span {
+    text-decoration: overline;
+}
