@@ -1,0 +1,60 @@
+/* The Box Model
+    - In a web document, every element is represented as a rectangular box
+    - in css, each of these boxes is described using the Box Model
+    - each of those boxes has four edges
+       1. content
+       2. Padding
+           - space between the border and the content
+       3. Border
+       4. Margin
+          - space between the border and everything else outside of it */
+
+p{
+    /* Content - Width and Height */
+    width: 200px;
+    /* changes width of element from default which stretches across the page */
+    height: 300px;
+
+    /* Border
+       - the border property is shorthand syntax in CSS that accepts multiple values for drawing a line around the element its applied to in combination
+       border: border-width border-style color; 
+       - border-width - specifies the thickness
+          - can be measured in px, em, rem (vh vw)
+          - thin = 1px, medium = 3px, thick = 5px
+       - border-style  = type of line drawn around the element
+           - solid, none, hidden 
+           - dashed, dotted, double, groove, ridge(heartbeat)
+       - color
+          - generic names, hex, rgba, rbg
+           */
+    border: solid 2px blue;
+
+        /* padding */
+    /* padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px; */
+    /* padding: 5px 20px 5px 20px; */
+        /* padding: top right bottom left */
+
+    /* padding: 0 1.5em 0 1.5em; */
+    /* padding: 0 1.5em; */
+       /* padding: top-bottom right-left */
+    
+       padding: 2em 3em 4em;
+           padding: top left-and-right bottom
+
+    padding: 2em;
+
+
+    /* Margin */
+    /* margin-top: 40px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    margin-left: 50px; */
+    /* margin: 40px 60px 60px; */
+    /* margin: 40px 60px; */
+    /* margin: 3em 4em; */
+    margin: 4em;
+
+   }
