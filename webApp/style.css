@@ -1,0 +1,28 @@
+header{
+    color: white;
+    background-color: rgb(59, 43, 43);
+    text-align: center;
+    margin: 1px;
+    padding: 5px 10px;
+}
+
+img{
+    width: 100%
+}
+a:visited{
+    color: yellow;
+}
+
+a:hover{
+    color: purple;
+}
+
+body{ 
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+
