@@ -37,4 +37,24 @@ body{
     margin: 0px auto;
 }
 
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+th{
+    background-color: aqua;
+}
+
+td{
+    background-color: yellow;
+    color: blue;
+}
+
+td, th{
+    padding: 5px;
+}
+
 
