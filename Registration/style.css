@@ -1,0 +1,20 @@
+body{
+    border: 6px solid blue;
+    margin: 60px;
+    padding: 10px;
+    width: 80%;
+    background-color: lightblue;
+}
+
+.required{
+    color: red;
+}
+
+#answer{
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
+}
+
+.location{
+    line-height: normal;
+}
