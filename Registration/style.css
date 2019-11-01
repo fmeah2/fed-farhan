@@ -3,11 +3,11 @@ body{
     margin: 40px auto;
     padding: 20px;
     width: 70%;
-    background-color: lightblue;
+    background-color: rgb(185, 112, 124);
 }
 
 .required{
-    color: red;
+    color: rgb(238, 22, 58);
 }
 
 #answer{
@@ -17,4 +17,18 @@ body{
 
 .location{
     line-height: normal;
+    text-decoration: lightyellow;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
 }
