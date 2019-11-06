@@ -1,0 +1,19 @@
+@media (max-width: 1023 px){
+    h1{
+        color: green;
+    }
+}
+
+@media(max-width: 767px){
+    h1{
+        color: red;
+        border: 1px solid blue;
+    }
+}
+
+@media(max-width: 480px){
+    h1{
+        font-style: italic;
+        font-size: 4em;
+    }
+}
