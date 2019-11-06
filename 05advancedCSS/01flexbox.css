@@ -1,0 +1,65 @@
+.container-1 div, .container-2 div, .container-3 div{
+    border: 1px solid #ccc;
+    padding: 10px
+
+}
+
+.container-1 {
+    display: flex;
+    /* will put container children side by side */
+    
+    /* by default, the boxes will be the same height */
+       /* align-items: flex-start;
+           /* Shortened container and moved to top */
+
+       align-items: flex-end; */
+       /* Shortened container and move to botton */
+       align-items: stretch;
+       
+       /* to stack container vertically. you can do 'row' too as well */
+       /* flex-direction: column; */
+}
+
+.container-2{
+    display: flex;
+
+    /* justify-content: flex-start; */
+
+    /* justify-content: flex-end; */
+
+    /* justify-content: center; */
+
+    /* justify-content: space-around; */
+
+    justify-content: space-between;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.box-1{
+    flex: 3;
+    order: 2;
+}
+
+.box-2{
+    flex: 2;
+    order: 1;
+}
+
+.box-3{
+    flex: 1;
+    order: 3;
+}
+
+.container-2-box{
+    width: 25%;
+}
+
+.container-3-box {
+    flex-basis: 12%;
+
+}
